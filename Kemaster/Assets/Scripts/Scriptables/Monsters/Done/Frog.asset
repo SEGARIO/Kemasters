@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ba164ed6418a3e45b2176fd2580b8c1, type: 3}
+  m_Name: Frog
+  m_EditorClassIdentifier: 
+  _index: 1
+  _visual: {fileID: 8975933364965834336, guid: 6e00753cbde8fcb4892c2b0abe5d8b49, type: 3}
+  _name: Grenouille
+  _description: C'est juste une grenouille. Pas besoin de chercher plus loin.
+  _talent: {fileID: 0}
+  _type: 1
+  _canLazer: 0
+  _minTimeLazer: 10
+  _maxTimeLazer: 30
+  _canJump: 1
+  _maxJumpDuration: 15
+  _minJumpDuration: 10
+  _maxTimeBeforeJump: 5
+  _minTimeBeforeJump: 10
+  _timeBeforeFirstJump: 0
+  _projectiles:
+  - projectilePrefab: {fileID: 5962548196209632404, guid: 63b7053bd972efc409b36146144b92d2, type: 3}
+    fireRate: 0.25
+    projectileCount: 15
+    waveDelay: 1
+    shootForce: 10
+  - projectilePrefab: {fileID: 5962548196209632404, guid: b0c2ff1e26f5ca74aa2ffdecbbeed1b3, type: 3}
+    fireRate: 0.1
+    projectileCount: 50
+    waveDelay: 1
+    shootForce: 20
+  - projectilePrefab: {fileID: 5962548196209632404, guid: d797067632a1baa4682ecdb9061e72f3, type: 3}
+    fireRate: 0.2
+    projectileCount: 50
+    waveDelay: 1
+    shootForce: 10
+  rotationDurationRange: {x: 3, y: 10}
+  rotationDelayRange: {x: 3, y: 10}
+  rotationSpeedRange: {x: 30, y: 120}
+  _battleCry: {fileID: 0}
+  _attackCry: {fileID: 0}
+  _deathCry: {fileID: 0}
+  _hp: 50
+  _attack: 5
+  _hasBeenEncountered: 1

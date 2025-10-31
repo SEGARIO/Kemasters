@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ba164ed6418a3e45b2176fd2580b8c1, type: 3}
+  m_Name: Ghost
+  m_EditorClassIdentifier: 
+  _index: 1
+  _visual: {fileID: 4499367862073699638, guid: 384cf9c3c2d9390459aa9b2009884f23, type: 3}
+  _name: "Fant\xF4me"
+  _description: "Ce fant\xF4me hante les lieux abandonn\xE9s. Il fait peur aux gens
+    qui osent s'y aventurer."
+  _talent: {fileID: 0}
+  _type: 128
+  _canLazer: 1
+  _minTimeLazer: 10
+  _maxTimeLazer: 30
+  _canJump: 0
+  _maxJumpDuration: 10
+  _minJumpDuration: 5
+  _maxTimeBeforeJump: 5
+  _minTimeBeforeJump: 15
+  _timeBeforeFirstJump: 5
+  _projectiles:
+  - projectilePrefab: {fileID: 5962548196209632404, guid: a7d22261d2fc1f641a2502deea10fa3a, type: 3}
+    fireRate: 0.2
+    projectileCount: 10
+    waveDelay: 0
+    shootForce: 10
+  - projectilePrefab: {fileID: 5962548196209632404, guid: d797067632a1baa4682ecdb9061e72f3, type: 3}
+    fireRate: 0.1
+    projectileCount: 50
+    waveDelay: 1
+    shootForce: 10
+  - projectilePrefab: {fileID: 5962548196209632404, guid: b064151400680004a89b9529f1554a21, type: 3}
+    fireRate: 0.2
+    projectileCount: 40
+    waveDelay: 1
+    shootForce: 5
+  - projectilePrefab: {fileID: 5962548196209632404, guid: 461ba5ce7f550f74594cf3f5327e4e00, type: 3}
+    fireRate: 0.2
+    projectileCount: 40
+    waveDelay: 1
+    shootForce: 8
+  rotationDurationRange: {x: 3, y: 10}
+  rotationDelayRange: {x: 3, y: 10}
+  rotationSpeedRange: {x: 30, y: 120}
+  _battleCry: {fileID: 0}
+  _attackCry: {fileID: 0}
+  _deathCry: {fileID: 0}
+  _hp: 250
+  _attack: 8
+  _hasBeenEncountered: 1

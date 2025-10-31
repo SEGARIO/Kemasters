@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ba164ed6418a3e45b2176fd2580b8c1, type: 3}
+  m_Name: BaloonBoy
+  m_EditorClassIdentifier: 
+  _index: 1
+  _visual: {fileID: 4499367862073699638, guid: f52c98691516e584480cd94380b3eea7, type: 3}
+  _name: Baloon Boy
+  _description: "Un gar\xE7on avec des ballons"
+  _talent: {fileID: 0}
+  _type: 4
+  _canLazer: 1
+  _minTimeLazer: 10
+  _maxTimeLazer: 30
+  _canJump: 1
+  _maxJumpDuration: 10
+  _minJumpDuration: 5
+  _maxTimeBeforeJump: 5
+  _minTimeBeforeJump: 15
+  _timeBeforeFirstJump: 5
+  _projectiles:
+  - projectilePrefab: {fileID: 5962548196209632404, guid: a7d22261d2fc1f641a2502deea10fa3a, type: 3}
+    fireRate: 0.2
+    projectileCount: 10
+    waveDelay: 0
+    shootForce: 10
+  - projectilePrefab: {fileID: 5962548196209632404, guid: 63b7053bd972efc409b36146144b92d2, type: 3}
+    fireRate: 0.25
+    projectileCount: 15
+    waveDelay: 1
+    shootForce: 10
+  - projectilePrefab: {fileID: 5962548196209632404, guid: b0c2ff1e26f5ca74aa2ffdecbbeed1b3, type: 3}
+    fireRate: 0.1
+    projectileCount: 50
+    waveDelay: 1
+    shootForce: 20
+  rotationDurationRange: {x: 3, y: 10}
+  rotationDelayRange: {x: 3, y: 10}
+  rotationSpeedRange: {x: 30, y: 120}
+  _battleCry: {fileID: 0}
+  _attackCry: {fileID: 0}
+  _deathCry: {fileID: 0}
+  _hp: 50
+  _attack: 5

@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ba164ed6418a3e45b2176fd2580b8c1, type: 3}
+  m_Name: BeeCommander
+  m_EditorClassIdentifier: 
+  _index: 1
+  _visual: {fileID: 4499367862073699638, guid: a2b6efa8fc34a8f43bb19c48f4fb4639, type: 3}
+  _name: Abeille Commandante
+  _description: "Une tr\xE8s grosse abeille qui fait bien peur (j'aime pas les abeilles)."
+  _talent: {fileID: 0}
+  _type: 4
+  _canLazer: 0
+  _minTimeLazer: 10
+  _maxTimeLazer: 30
+  _canJump: 1
+  _maxJumpDuration: 10
+  _minJumpDuration: 5
+  _maxTimeBeforeJump: 15
+  _minTimeBeforeJump: 5
+  _timeBeforeFirstJump: 5
+  _projectiles:
+  - projectilePrefab: {fileID: 5962548196209632404, guid: a7d22261d2fc1f641a2502deea10fa3a, type: 3}
+    fireRate: 0.2
+    projectileCount: 10
+    waveDelay: 0
+    shootForce: 10
+  - projectilePrefab: {fileID: 5962548196209632404, guid: b0c2ff1e26f5ca74aa2ffdecbbeed1b3, type: 3}
+    fireRate: 0.1
+    projectileCount: 50
+    waveDelay: 1
+    shootForce: 20
+  - projectilePrefab: {fileID: 5962548196209632404, guid: 48066231e6adfcc48a8b798c74170eab, type: 3}
+    fireRate: 0.1
+    projectileCount: 50
+    waveDelay: 1
+    shootForce: 20
+  - projectilePrefab: {fileID: 5962548196209632404, guid: 182c01678bb1a9845ad06e5ad80ae533, type: 3}
+    fireRate: 0.1
+    projectileCount: 50
+    waveDelay: 1
+    shootForce: 20
+  - projectilePrefab: {fileID: 5962548196209632404, guid: c70223f8494dba2458008364bfe07ca7, type: 3}
+    fireRate: 0.1
+    projectileCount: 50
+    waveDelay: 1
+    shootForce: 15
+  rotationDurationRange: {x: 3, y: 10}
+  rotationDelayRange: {x: 3, y: 10}
+  rotationSpeedRange: {x: 30, y: 120}
+  _battleCry: {fileID: 0}
+  _attackCry: {fileID: 0}
+  _deathCry: {fileID: 0}
+  _hp: 150
+  _attack: 10
+  _hasBeenEncountered: 1
