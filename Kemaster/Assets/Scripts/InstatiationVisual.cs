@@ -6,7 +6,7 @@ public class InstatiationVisual : MonoBehaviour
     public GameObject _monsterVisual;
     public GameObject _visualParent;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    void Awake()
     {
         _monster = FindObjectOfType<ManagerInMap>()._monsterForFight;
         _monsterVisual = Instantiate(_monster._visual, this.transform.position, Quaternion.identity, _visualParent.transform);

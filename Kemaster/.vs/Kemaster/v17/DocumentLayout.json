@@ -3,11 +3,27 @@
   "WorkspaceRootPath": "C:\\Users\\nonok\\NewRepo\\Kemaster\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DB3EC93F-80D2-C63C-08B0-8863CECB4D25}|Assembly-CSharp.csproj|c:\\users\\nonok\\newrepo\\kemaster\\assets\\scripts\\grasscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DB3EC93F-80D2-C63C-08B0-8863CECB4D25}|Assembly-CSharp.csproj|C:\\Users\\nonok\\NewRepo\\Kemaster\\assets\\scripts\\grasscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DB3EC93F-80D2-C63C-08B0-8863CECB4D25}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\grasscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB3EC93F-80D2-C63C-08B0-8863CECB4D25}|Assembly-CSharp.csproj|c:\\users\\nonok\\newrepo\\kemaster\\assets\\scripts\\bossmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DB3EC93F-80D2-C63C-08B0-8863CECB4D25}|Assembly-CSharp.csproj|c:\\users\\nonok\\newrepo\\kemaster\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB3EC93F-80D2-C63C-08B0-8863CECB4D25}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB3EC93F-80D2-C63C-08B0-8863CECB4D25}|Assembly-CSharp.csproj|c:\\users\\nonok\\newrepo\\kemaster\\assets\\scripts\\instatiationvisual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB3EC93F-80D2-C63C-08B0-8863CECB4D25}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\instatiationvisual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB3EC93F-80D2-C63C-08B0-8863CECB4D25}|Assembly-CSharp.csproj|C:\\Users\\nonok\\NewRepo\\Kemaster\\assets\\scripts\\lazerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB3EC93F-80D2-C63C-08B0-8863CECB4D25}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\lazerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB3EC93F-80D2-C63C-08B0-8863CECB4D25}|Assembly-CSharp.csproj|C:\\Users\\nonok\\NewRepo\\Kemaster\\assets\\managerinmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB3EC93F-80D2-C63C-08B0-8863CECB4D25}|Assembly-CSharp.csproj|solutionrelative:assets\\managerinmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB3EC93F-80D2-C63C-08B0-8863CECB4D25}|Assembly-CSharp.csproj|C:\\Users\\nonok\\NewRepo\\Kemaster\\assets\\scripts\\bossmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DB3EC93F-80D2-C63C-08B0-8863CECB4D25}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bossmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -18,8 +34,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayerMovement.cs",
+              "DocumentMoniker": "C:\\Users\\nonok\\NewRepo\\Kemaster\\Assets\\Scripts\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
+              "ToolTip": "C:\\Users\\nonok\\NewRepo\\Kemaster\\Assets\\Scripts\\PlayerMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAkwCQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T15:48:22.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LazerScript.cs",
+              "DocumentMoniker": "C:\\Users\\nonok\\NewRepo\\Kemaster\\Assets\\Scripts\\LazerScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LazerScript.cs",
+              "ToolTip": "C:\\Users\\nonok\\NewRepo\\Kemaster\\Assets\\Scripts\\LazerScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LazerScript.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T15:22:27.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InstatiationVisual.cs",
+              "DocumentMoniker": "C:\\Users\\nonok\\NewRepo\\Kemaster\\Assets\\Scripts\\InstatiationVisual.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\InstatiationVisual.cs",
+              "ToolTip": "C:\\Users\\nonok\\NewRepo\\Kemaster\\Assets\\Scripts\\InstatiationVisual.cs",
+              "RelativeToolTip": "Assets\\Scripts\\InstatiationVisual.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T03:31:40.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ManagerInMap.cs",
+              "DocumentMoniker": "C:\\Users\\nonok\\NewRepo\\Kemaster\\Assets\\ManagerInMap.cs",
+              "RelativeDocumentMoniker": "Assets\\ManagerInMap.cs",
+              "ToolTip": "C:\\Users\\nonok\\NewRepo\\Kemaster\\Assets\\ManagerInMap.cs",
+              "RelativeToolTip": "Assets\\ManagerInMap.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T03:26:49.779Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -28,14 +94,14 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\GrassController.cs",
               "ToolTip": "C:\\Users\\nonok\\NewRepo\\Kemaster\\Assets\\Scripts\\GrassController.cs",
               "RelativeToolTip": "Assets\\Scripts\\GrassController.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAQwEkAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAkwFoAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-31T03:02:24.87Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "BossMap.cs",
               "DocumentMoniker": "C:\\Users\\nonok\\NewRepo\\Kemaster\\Assets\\Scripts\\BossMap.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\BossMap.cs",
@@ -43,8 +109,7 @@
               "RelativeToolTip": "Assets\\Scripts\\BossMap.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-31T02:46:13.079Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-31T02:46:13.079Z"
             }
           ]
         }
