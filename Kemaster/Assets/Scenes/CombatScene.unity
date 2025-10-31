@@ -1927,7 +1927,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e873a583bb51adb4895180e45879ba5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _monster: {fileID: 11400000, guid: 321e662303223734cb4bea2ce98a665c, type: 2}
+  _monster: {fileID: 11400000, guid: c82aa1363cbbbd24a8c69b6deb68e2a6, type: 2}
   _monsterVisual: {fileID: 0}
   _visualParent: {fileID: 395405963}
 --- !u!1001 &1621219816

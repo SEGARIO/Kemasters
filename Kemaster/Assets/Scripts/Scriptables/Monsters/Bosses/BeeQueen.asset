@@ -13,42 +13,62 @@ MonoBehaviour:
   m_Name: BeeQueen
   m_EditorClassIdentifier: 
   _index: 1
-  _visual: {fileID: 4499367862073699638, guid: f52c98691516e584480cd94380b3eea7, type: 3}
-  _name: Oeil
-  _description: Un gros oeil
+  _visual: {fileID: 4499367862073699638, guid: e890e4f342764064aa5f327e436b0932, type: 3}
+  _name: Reine des abeilles
+  _description: C'est la reine des abeilles.
   _talent: {fileID: 0}
   _type: 4
   _canLazer: 1
   _minTimeLazer: 10
   _maxTimeLazer: 30
   _canJump: 1
-  _maxJumpDuration: 10
-  _minJumpDuration: 5
-  _maxTimeBeforeJump: 5
-  _minTimeBeforeJump: 15
+  _maxJumpDuration: 30
+  _minJumpDuration: 10
+  _maxTimeBeforeJump: 10
+  _minTimeBeforeJump: 5
   _timeBeforeFirstJump: 5
   _projectiles:
   - projectilePrefab: {fileID: 5962548196209632404, guid: a7d22261d2fc1f641a2502deea10fa3a, type: 3}
-    fireRate: 0.2
-    projectileCount: 10
+    fireRate: 0.1
+    projectileCount: 25
     waveDelay: 0
     shootForce: 10
-  - projectilePrefab: {fileID: 5962548196209632404, guid: 63b7053bd972efc409b36146144b92d2, type: 3}
-    fireRate: 0.25
-    projectileCount: 15
+  - projectilePrefab: {fileID: 5962548196209632404, guid: 48066231e6adfcc48a8b798c74170eab, type: 3}
+    fireRate: 0.1
+    projectileCount: 50
     waveDelay: 1
-    shootForce: 10
+    shootForce: 15
   - projectilePrefab: {fileID: 5962548196209632404, guid: b0c2ff1e26f5ca74aa2ffdecbbeed1b3, type: 3}
     fireRate: 0.1
     projectileCount: 50
     waveDelay: 1
     shootForce: 20
+  - projectilePrefab: {fileID: 5962548196209632404, guid: fdddd6456f2b349428f7d92c96f8ba85, type: 3}
+    fireRate: 0.2
+    projectileCount: 1
+    waveDelay: 1
+    shootForce: 0
+  - projectilePrefab: {fileID: 5962548196209632404, guid: c70223f8494dba2458008364bfe07ca7, type: 3}
+    fireRate: 0.05
+    projectileCount: 100
+    waveDelay: 1
+    shootForce: 10
+  - projectilePrefab: {fileID: 5962548196209632404, guid: 63845eaa5dc95fd428aa858bb7c05d7a, type: 3}
+    fireRate: 0.2
+    projectileCount: 20
+    waveDelay: 1
+    shootForce: 5
+  - projectilePrefab: {fileID: 5962548196209632404, guid: fdddd6456f2b349428f7d92c96f8ba85, type: 3}
+    fireRate: 0.2
+    projectileCount: 1
+    waveDelay: 1
+    shootForce: 0
   rotationDurationRange: {x: 0, y: 10}
   rotationDelayRange: {x: 0, y: 10}
   rotationSpeedRange: {x: 10, y: 200}
   _battleCry: {fileID: 0}
   _attackCry: {fileID: 0}
   _deathCry: {fileID: 0}
-  _hp: 50
-  _attack: 5
-  _hasBeenEncountered: 0
+  _hp: 400
+  _attack: 10
+  _hasBeenEncountered: 1
