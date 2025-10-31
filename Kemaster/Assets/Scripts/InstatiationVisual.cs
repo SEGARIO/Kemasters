@@ -8,6 +8,7 @@ public class InstatiationVisual : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        _monster = FindObjectOfType<ManagerInMap>()._monsterForFight;
         _monsterVisual = Instantiate(_monster._visual, this.transform.position, Quaternion.identity, _visualParent.transform);
         _monsterVisual.transform.localRotation = Quaternion.Euler(0, -90, 0);
         _monsterVisual.transform.SetSiblingIndex(transform.GetSiblingIndex() - 1);
