@@ -61,4 +61,4 @@ MonoBehaviour:
   _deathCry: {fileID: 0}
   _hp: 200
   _attack: 10
-  _hasBeenEncountered: 1
+  _hasBeenEncountered: 0

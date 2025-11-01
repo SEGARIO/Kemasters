@@ -12,6 +12,7 @@ public class InstatiationVisual : MonoBehaviour
         _monsterVisual = Instantiate(_monster._visual, this.transform.position, Quaternion.identity, _visualParent.transform);
         _monsterVisual.transform.localRotation = Quaternion.Euler(0, -90, 0);
         _monsterVisual.transform.SetSiblingIndex(transform.GetSiblingIndex() - 1);
+        _monster._hasBeenEncountered = true;
     }
 
     // Update is called once per frame

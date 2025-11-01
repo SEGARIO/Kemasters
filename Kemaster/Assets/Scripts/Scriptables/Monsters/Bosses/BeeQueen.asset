@@ -65,10 +65,10 @@ MonoBehaviour:
     shootForce: 0
   rotationDurationRange: {x: 0, y: 10}
   rotationDelayRange: {x: 0, y: 10}
-  rotationSpeedRange: {x: 10, y: 200}
+  rotationSpeedRange: {x: 20, y: 200}
   _battleCry: {fileID: 0}
   _attackCry: {fileID: 0}
   _deathCry: {fileID: 0}
   _hp: 400
-  _attack: 10
-  _hasBeenEncountered: 1
+  _attack: 15
+  _hasBeenEncountered: 0
